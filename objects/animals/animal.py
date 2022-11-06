@@ -51,6 +51,10 @@ class Animal(ZooElement):
         return self.health
 
         
+    def make_sound(self, sound="lalala"):
+        print(sound)
+        return sound
+
     def to_string(self):
         return f"Animal of type: {self.type}\nName: '{self.name}'\nHealth: {self.health}\nFavorite food: {self.favorite_food}\nId: {self.id}"
 

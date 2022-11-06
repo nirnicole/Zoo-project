@@ -7,3 +7,6 @@ class Lion(Mammal):
         Mammal.__init__(self, args)
         self.favorite_food = LION_FOOD
         self.daily_consumption = DAILY_CONS_LYON
+
+    def rawr(Self):
+        super().make_sound("miawoo")
