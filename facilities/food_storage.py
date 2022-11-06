@@ -11,5 +11,5 @@ class FoodStorage(Facility):
 
 
     def use_supplies(self, food):
-        return self.invetory.delete(food)
+        return self.invetory.pop(food)
 

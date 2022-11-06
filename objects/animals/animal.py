@@ -56,8 +56,12 @@ class Animal(ZooElement):
         return sound
 
     def to_string(self):
-        return f"Animal of type: {self.type}\nName: '{self.name}'\nHealth: {self.health}\nFavorite food: {self.favorite_food}\nId: {self.id}"
-
+        res = ""
+        attr_value = self.__dict__         
+        for att in attr_value:
+            res += f"{att}: {self.__dict__[att]}\n"
+        return res
+        
     def to_json(self):
         return {
             "id": self.id,

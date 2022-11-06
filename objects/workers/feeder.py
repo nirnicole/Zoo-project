@@ -50,7 +50,6 @@ class Feeder(Employee):
         shopping_list = {}
         while amount > 0:        
             shopping_list.setdefault(food_type, []).append(food_bag)
-            print(shopping_list)
             food_storage.buy_supplies(shopping_list)
             amount -=1
 

@@ -6,7 +6,7 @@ class Invetory():
     def add(self, catagory, item):
         self.invetory.setdefault(catagory, []).append(item)
 
-    def delete(self, catagory, item=-1):
+    def pop(self, catagory):
         if catagory in list(self.invetory.keys()):
             if len(self.invetory[catagory])>0 :
                 return self.invetory[catagory].pop()
