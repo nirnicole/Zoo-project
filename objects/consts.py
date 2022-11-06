@@ -1,0 +1,30 @@
+MAX_HEALTH = 100
+MIN_HEALTH = 0
+
+ANIMAL_EAT = "\nanimal is Eating!"
+ANIMAL_DIDNT_EAT = "\nanimal didnt eat..."
+ANIMAL_DEAD = "animal is DEAD! :("
+INVALID_INPUT = "invalid input: "
+EMPLOYEE_WORK = "\nEmployee is working!"
+REFILL_MSG = "stack empty! please refill: "
+ATTEMPT_FEED = "feeding "
+SUCCESS_FEED = "fed with: "
+
+LION_FOOD = "meat"
+WHALE_FOOD = "plankton"
+CLOWNFISH_FOOD = "algae"
+GOOSE_FOOD = "seeds"
+OWL_FOOD = "worms"
+
+DAILY_CONS_LYON = 6000
+DAILY_CONS_WHALE = 2000000
+DAILY_CONS_CLOWNFISH = 3
+DAILY_CONS_GOOSE = 1000
+DAILY_CONS_OWL = 100
+
+
+MEAT_SHOP_AMT = 6000
+PLANKTON_SHOP_AMT = 2000000
+ALGAE_SHOP_AMT = 3
+SEEDS_SHOP_AMT = 1000
+WORMS_SHOP_AMT = 100

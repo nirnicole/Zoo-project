@@ -1,0 +1,7 @@
+{
+    "meat": [{"name": "bag of food", "quentity": 6000},{"name": "bag of food", "quentity": 6000},{"name": "bag of food", "quentity": 6000}],
+    "plankton": [{"name": "bag of food", "quentity": 2000000},{"name": "bag of food", "quentity": 2000000}],
+    "algae": [{"name": "bag of food", "quentity": 3},{"name": "bag of food", "quentity": 3}],
+    "seeds": [{"name": "bag of food", "quentity": 1000},{"name": "bag of food", "quentity": 1000}],
+    "worms": [{"name": "bag of food", "quentity": 100},{"name": "bag of food", "quentity": 100}]
+}

@@ -1,0 +1,7 @@
+{
+    "lion": [{"type":"lion","name": "Simba", "pregnancy": 5}, {"type":"lion","name": "Nala", "pregnancy": 5}],
+    "whale": [{"type":"whale","name": "Willy", "pregnancy": 9, "lowest": 2000}],
+    "owl": [{"type":"owl", "name": "Hedwig", "wing": 120}],
+    "clownfish": [{"type":"clownfish", "name": "Nemo", "lowest": 20}, {"type":"clownfish", "name": "Marlin", "lowest": 20}],
+    "goose": [{"type":"goose", "name": "Akka", "pregnancy": 8}]
+}
