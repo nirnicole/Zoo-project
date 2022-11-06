@@ -4,6 +4,9 @@ class ZooElement():
     def __init__(self):
         self.id = self.generate_id()
 
+    def run(self):
+        pass
+
     def get_id(self):
         return type(self)._id
 
