@@ -23,12 +23,3 @@ class Employee(ZooElement):
     def report_hours(self):
         pass
         
-    def to_string(self):
-        return f"worker of type: {self.__class__.__name__}\nName: '{self.name}'\nId: {self.id}\n"
-
-    def to_json(self):
-        return {
-            "id": self.id,
-            "type": self.__class__.__name__,
-            "name": self.name,
-        }

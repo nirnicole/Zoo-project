@@ -8,12 +8,3 @@ class Food(ZooElement):
         self.type = catagory
         self.quentity = quentity
         
-    def to_string(self):
-        return f"\nFood of type: {self.__class__.__name__}\nQuentity: '{self.quentity}'\nId: {self.id}"
-
-    def to_json(self):
-        return {
-            "id": self.id,
-            "type": self.__class__.__name__,
-            "quentity": self.name,
-        }

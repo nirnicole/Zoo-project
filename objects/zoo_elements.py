@@ -18,7 +18,16 @@ class ZooElement():
         return self.get_id()
 
     def to_string(self):
-        pass
-
+        res = ""
+        attr_value = self.__dict__         
+        for att in attr_value:
+            res += f"{att}: {self.__dict__[att]}\n"
+        return res
+        
     def to_json(self):
-        pass
+        res = {}
+        attr_value = self.__dict__         
+        for att in attr_value:
+            res[att] = self.__dict__[att]
+
+        return res
